@@ -24,10 +24,12 @@ Dataset Source: *Nike Sales Data (Internal/Practice Dataset)*
 ---
 
 ## 📂 Repository Structure
-- **/data/** – Raw and cleaned Nike sales datasets  
-- **/notebooks/** – R Markdown analysis file (`project6.Rmd`)  
+- **/data/** – Raw and cleaned Nike sales datasets
+- **/scripts/** –
+-  - R script
+   - R Markdown analysis file (`project6.Rmd`)    
 - **/visuals/** – Graphs, plots, and dashboards from the analysis  
-- **/reports/** – Summary reports or presentation slides  
+- **/reports/** – Summary reports or presentation slides
 
 ---
 
