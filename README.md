@@ -1,58 +1,62 @@
-<img width="796" height="400" alt="image" src="https://github.com/user-attachments/assets/05f363d3-1512-443f-8023-0b89030f2c6d" />
-
-# 💄 Sephora — Consumer Insights & Product Strategy using R
+# 👟 Nike — Customer & Sales Insights using R
 
 ## 📘 Overview
-This project analyzes **Sephora’s product dataset** to uncover relationships between pricing, brand effectiveness, exclusivity, and customer engagement metrics such as ratings, loves count, and popularity.  
-The goal is to transform raw data into **actionable business recommendations** that support product strategy and category planning within the beauty retail domain.
+This project explores **Nike’s sales dataset** to uncover patterns in customer behavior, regional performance, and sales channel efficiency.  
+The goal is to translate raw retail data into **insights that drive data-backed marketing and product decisions** for Nike’s customer segments.
 
-Dataset Source: [Sephora Products and Skincare Reviews (Kaggle)](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)
+Dataset Source: *Nike Sales Data (Internal/Practice Dataset)*
 
+---
 
 ## 🎯 Objectives
-- Evaluate how **product categories** differ in customer satisfaction and popularity  
-- Examine whether **price influences** customer satisfaction and loyalty  
-- Assess how **brand exclusivity** and **limited editions** impact engagement  
-- Provide **strategic recommendations** for product mix optimization
+- Clean and structure unrefined sales data for reliable analysis  
+- Identify **top-performing regions, sales channels, and product categories**  
+- Analyze **seasonal trends** and **purchase patterns** across time  
+- Develop **customer segmentation insights** to inform marketing strategy  
 
+---
 
 ## 🧠 Tools & Libraries
 - **R**  
-- tidyverse • dplyr • ggplot2 • janitor • stringr  
+- tidyverse • dplyr • ggplot2 • janitor • lubridate • scales • forcats  
 - Data cleaning, exploratory data analysis (EDA), and visualization  
 
+---
 
 ## 📂 Repository Structure
-- **/data/** – Raw dataset files (CSV format)  
-- **/scripts/** – R scripts and `Instruction.pdf`  
-- **/visuals/** – Plots and visualization outputs  
-- **/reports/** – Presentation deck with recommendations  
+- **/data/** – Raw and cleaned Nike sales datasets  
+- **/notebooks/** – R Markdown analysis file (`project6.Rmd`)  
+- **/visuals/** – Graphs, plots, and dashboards from the analysis  
+- **/reports/** – Summary reports or presentation slides  
 
-
+---
 
 ## 📊 Key Insights
-- Product categories such as **skincare and makeup** drive the majority of engagement.  
-- **Price and satisfaction** are not directly correlated — customers often favor mid-range products.  
-- **Exclusive products** see higher engagement but not always higher ratings.  
+- **Sales Channels:** Online sales show higher unit volume, while in-store drives higher average revenue per transaction.  
+- **Regions:** Western and Central regions outperform others in Q2 and Q4 cycles.  
+- **Products:** Certain footwear categories sustain strong repeat purchase rates.  
+- **Customer Segments:** Seasonal spikes in mid-priced product sales suggest opportunity for targeted promotions.  
 
-
+---
 
 ## 🪄 Visualizations
-- Bar charts comparing product category vs. average rating  
-- Scatter plot: Price vs. Customer Rating  
-- Boxplot: Engagement (loves count) vs. Exclusivity  
+- Bar chart: Category vs. Units Sold  
+- Line plot: Monthly Sales Trend  
+- Pie chart: Region-wise Sales Distribution  
+- Histogram: Price Distribution  
+- Boxplot: Units Sold vs. Sales Channel  
 
+---
 
 ## 📈 Deliverables
-- Cleaned dataset  
-- R script for reproducible analysis  
-- Visual plots  
-- Final presentation with data-backed recommendations  
+- Cleaned and transformed dataset  
+- R Markdown script (`project6.Rmd`) for reproducible workflow  
+- Visuals highlighting key sales and customer insights  
+- Executive summary with data-driven recommendations  
 
-
+---
 
 ## 🧾 Author
 **Akash Prasad**  
 📍 Amazon | Data Analytics & Program Management  
 🔗 [LinkedIn](https://www.linkedin.com/in/akashprasad97/) | [GitHub](https://github.com/akashprasad96)
-
